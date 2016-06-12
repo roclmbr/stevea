@@ -1,0 +1,7 @@
+1) Create rails application
+2) Open rails server and verify application
+3) Create pages controller
+4) Add routes for each page
+5) Create pages template and definition in pages controller
+6) Add to Github
+7) download to production server from Github

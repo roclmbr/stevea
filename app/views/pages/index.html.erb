@@ -1,23 +1,12 @@
 
-<html>
 
-    <head>
-        
-        <title>Steve Adamson</title>
-    
-        <link rel="stylesheet" type="text/css" href="steve.css">
-    
-    </head>
-
-    <body>
-        
         <div id="topbar">
         
             <img id="logo" src="images/logo.jpg">
             
             <div id="signin-div" class="topbar-section">
             
-                <img id="signin-image" src="images/signin.jpg">
+               <img id="signin-image" src="/images/signin.jpg">
                 
                 <span id="signin-text">Sign in</span>
             
@@ -43,7 +32,7 @@
             
             <div class="topbar-section topbar-menu">
             
-                Offroading
+                <%= link_to "Offroading", pages_jeeps_path %>
             
             </div>
             
@@ -89,7 +78,7 @@
                 
                     <a href="">Home</a>
                     
-                    <a href="">Jeeps</a>
+                    <%= link_to "Jeeps", "#", id: "jeeps-link" %>
                     
                     <a href="">HD</a>
                     
@@ -145,10 +134,16 @@
                     </div>
                     
                     <img id="main-article-image" src="images/IMG_0269.JPG">
-                    
+    
                 </div>
-                
+                <div id="jeeps-section">
+                    <h1>Offroading</h1>
+                    <h2>Welcome to my Jeep area</h2>
+                </div>
             </div>
+
+            
+
             
             <div id="watch-listen">
             
@@ -170,8 +165,7 @@
                 
                 <div class="side-article">
                 
-                    <p><a class="watch-listen-link" href="">
-Prayer Flags</a></p>
+                    <p><a class="watch-listen-link" href="">Prayer Flags</a></p>
 
                     <p><img class="clock"> <span class="date border-right">September 2002</span><br><a class="topic-link no-border" href="">Baruntse</a></p>
                     
@@ -188,7 +182,10 @@ Prayer Flags</a></p>
                     <p><img class="clock"> <span class="date border-right">October 2002</span><br><a class="topic-link no-border" href="">Jungles</a></p>
                     
                 </div>
+                <div >
+            
+                
+            
+                </div> 
             </div>
           </div>
-    </body>
-</html>
