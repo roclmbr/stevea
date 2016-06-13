@@ -11,4 +11,17 @@ class PagesController < ApplicationController
     def jeeps
         
     end
+    
+    def mountains
+        
+    end
+    
+    def rock
+        
+    end
+    
+    def ice
+        
+    end
+    
 end

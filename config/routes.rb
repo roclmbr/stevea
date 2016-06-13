@@ -6,6 +6,9 @@ Rails.application.routes.draw do
     root 'pages#index'
     get 'pages/about', to: 'pages#about'
     get 'pages/jeeps', to: 'pages#jeeps'
+    get 'pages/mountains', to: 'pages#mountains'
+    get 'pages/rock', to: 'pages#rock'
+    get 'pages/ice', to: 'pages#ice'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
