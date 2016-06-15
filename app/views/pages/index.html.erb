@@ -1,52 +1,36 @@
         <div id="topbar">
-            <%= image_tag("logo.jpg") %>
             
             <div id="signin-div" class="topbar-section">
+                <%= image_tag("logo.jpg", size: "50x50") %>
+            </div>
             
-                <%= image_tag("signin.jpg") %>
-                
-                <span id="signin-text">Sign in</span>
-            
+            <div id="signin-div" class="topbar-section">
+                <%= image_tag("signin.jpg", size: "100x40") %>
             </div>
             
             <div class="topbar-section topbar-menu">
-            
                <%= link_to "Rock Climbing", pages_rock_path %>
-            
-            </div>
+             </div>
             
             <div class="topbar-section topbar-menu">
-            
                 <%= link_to "Ice Climbing", pages_ice_path %>
-            
-            </div>
+             </div>
             
             <div class="topbar-section topbar-menu">
-                
                 <%= link_to "Mountaineering", pages_mountains_path %>
-                            
+             </div>
+            
+            <div class="topbar-section topbar-menu">
+                 <%= link_to "Offroading", pages_jeeps_path %>
+             </div>
+            
+            <div class="topbar-section topbar-menu">
+                   More <%= image_tag("down-arrow.png", size: "20x20") %>
             </div>
             
             <div class="topbar-section topbar-menu">
-            
-                <%= link_to "Offroading", pages_jeeps_path %>
-            
-            </div>
-            
-            <div class="topbar-section topbar-menu">
-            
-                More
-                
-                <img id="more-arrow" src="images/down-arrow.png">
-            
-            </div>
-            
-            <div class="topbar-section">
-            
-                <input id="search-box" type="text" value="Search">
-                
-                <input type="image" id="magnifying-glass" src="images/orb-search-dark.png">
-            
+                  <input id="search-box" type="text" value="Search">
+                <input type="image" id="magnifying-glass" <%= image_tag("orb-search-dark.png", size: "20x20") %>
             </div>
         
         </div>
@@ -94,10 +78,6 @@
                      <a href="">Adventure Racing</a>
                     
                      <a href="">Climbing</a>
-                    
-                     <a href="" class="no-border">More</a>
-                    
-                    <img id="down-arrow" src="images/down-arrow.png">
                 
                 </div>
             
@@ -129,25 +109,19 @@
                         <p><a class="article-link" href="">Double kayak provides great stability</a></p>
 
                     </div>
+                        <%= image_tag("IMG_0269.JPG", size: "200x200") %>
                     
-                    <img id="main-article-image" src="images/IMG_0269.JPG">
-    
-                </div>
-                <div id="jeeps-section">
-                    <h1>Offroading</h1>
-                    <h2>Welcome to my Jeep area</h2>
+                    <div id="jeeps-section">
+                        <h1>Offroading</h1>
+                        <h2>Welcome to my Jeep area</h2>
+                    </div>
                 </div>
             </div>
-
-            
-
             
             <div id="watch-listen">
             
                 <h4>Watch/Listen</h4>
-                
-                <img class="article-side-image" src="images/Baruntse-079.jpg">
-                
+                    <%= image_tag("Baruntse-079.jpg", size: "100x100") %>
                 <div class="side-article">
                 
                     <p><a class="watch-listen-link" href="">Don heads for Baruntse</a></p>
@@ -157,9 +131,7 @@
                 </div>
                 
                 <div class="clear"></div>
-                
-                <img class="article-side-image" src="images/Baruntse-323a.jpg">
-                
+                    <%= image_tag("Baruntse-323a.jpg", size: "100x100") %>
                 <div class="side-article">
                 
                     <p><a class="watch-listen-link" href="">Prayer Flags</a></p>
@@ -169,9 +141,7 @@
                 </div>
                 
                 <div class="clear"></div>
-                
-                <img class="article-side-image" src="images/Baruntse-466.jpg">
-                
+                    <%= image_tag("Baruntse-466.jpg", size: "100x100") %>
                 <div class="side-article">
                 
                     <p><a class="watch-listen-link" href="">Elephant Riding</a></p>

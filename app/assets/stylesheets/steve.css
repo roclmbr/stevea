@@ -1,6 +1,6 @@
             #topbar {
                 
-                width:1000px;
+                width:1200px;
                 margin:0 auto;
                 height: 40px;
                 
@@ -91,8 +91,8 @@
                 border:none;
                 font-weight: bold;
                 font-size: 14px;
-                padding:5px;
-                margin: 5px 0 5px 5px;
+                padding:1px;
+                margin: 1px 0 5px 5px;
                 float: left;
                 
             }
